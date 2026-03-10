@@ -276,19 +276,19 @@ const furnitureData = {
         flippedImg: "Basic/Lighting/basic_lighting1-f.png",
         rearImg:"Basic/Lighting/basic_lighting1.png",
         rearImgF:"Basic/Lighting/basic_lighting1-f.png",
-        width:200
+        width:175
       },
       {name:"Basic Lighting 2", price: 120, img:"Basic/Lighting/basic_lighting2.png",
         flippedImg:"Basic/Lighting/basic_lighting2.png",
         rearImg:"Basic/Lighting/basic_lighting2.png",
         rearImgF: "Basic/Lighting/basic_lighting2.png",
-        width: 200
+        width: 175
       },
         {name:"Basic Lighting 3", price: 120, img:"Basic/Lighting/basic_lighting3.png",
         flippedImg:"Basic/Lighting/basic_lighting3.png",
         rearImg:"Basic/Lighting/basic_lighting3.png",
         rearImgF: "Basic/Lighting/basic_lighting3.png",
-        width: 200
+        width: 175
       }
     ],
 
