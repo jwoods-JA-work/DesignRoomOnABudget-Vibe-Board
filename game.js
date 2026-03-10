@@ -13,6 +13,8 @@ const finishBtn = document.getElementById("finishRoom");
 const resetBtn = document.getElementById("resetRoom");
 const backBtn = document.getElementById("backToDice");
 const timerDisplay = document.getElementById("timer");
+const drawer = document.getElementById("drawer");
+
 
 // Disable finish button until timer ends
 finishBtn.disabled = true;
@@ -655,11 +657,23 @@ changeViewBtn.addEventListener('click', () => {
 // FINISH ROOM
 // =======================
 finishBtn.addEventListener("click", () => {
+
   if (budget >= 0) {
-    alert("✅ You stayed within budget! Drawer unlocked! Your code is 200");
+
+    // Unlock drawer
+    drawer.classList.remove("locked");
+    drawer.classList.add("unlocked");
+
+    // Show code
+    drawer.innerHTML = "🔓 Drawer Unlocked! Code: <strong>200</strong>";
+
   } else {
-    alert("❌ Over Budget! Try Again");
+
+    drawer.classList.add("locked");
+    drawer.innerHTML = "❌ Over Budget! Drawer Locked";
+
   }
+
 });
 
 // =======================
