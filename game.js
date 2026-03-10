@@ -297,14 +297,14 @@ const furnitureData = {
         flippedImg: "Standard/Lighting/Standard_Lighting1-f.png",
         rearImg: "Standard/Lighting/Standard_Lighting1.png",
         rearImgF: "Standard/Lighting/Standard_Lighting1-f.png",
-        width:150
+        width:125
       },
 
       {name:"Standard Lighting 2", price: 250, img:"Standard/Lighting/Standard_Lighting2.png",
         flippedImg: "Standard/Lighting/Standard_Lighting2-f.png",
         rearImg: "Standard/Lighting/Standard_Lighting2.png",
         rearImgF: "Standard/Lighting/Standard_Lighting2-f.png",
-        width:150
+        width:125
       },
 
       {name:"Standard Lighting 3", price: 250, img:"Standard/Lighting/Standard_Lighting3.png",
