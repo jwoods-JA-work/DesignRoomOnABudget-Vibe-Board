@@ -327,14 +327,14 @@ const furnitureData = {
       flippedImg: "Luxury/Lighting/luxury_lighting2.png",
       rearImg: "Luxury/Lighting/luxury_lighting2.png",
       rearImgF: "Luxury/Lighting/luxuryl_ighting2.png",
-      width:200
+      width:150
       },
 
       {name:"Luxury Lighting 3", price:500, img:"Luxury/Lighting/luxury_lighting3.png",
       flippedImg: "Luxury/Lighting/luxury_lighting3.png",
       rearImg: "Luxury/Lighting/luxury_lighting3.png",
       rearImgF: "Luxury/Lighting/luxury_lighting3.png",
-      width:200
+      width:150
       }
     ]
   },
