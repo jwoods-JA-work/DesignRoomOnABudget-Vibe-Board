@@ -390,6 +390,7 @@ touch-action:none;
 
 .locked {
   background: #ddd;
+   align-items: center;
 }
 
 
