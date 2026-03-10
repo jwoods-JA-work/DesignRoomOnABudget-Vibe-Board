@@ -276,7 +276,7 @@ const furnitureData = {
         flippedImg: "Basic/Lighting/basic_lighting1-f.png",
         rearImg:"Basic/Lighting/basic_lighting1.png",
         rearImgF:"Basic/Lighting/basic_lighting1-f.png",
-        width:175
+        width:150
       },
       {name:"Basic Lighting 2", price: 120, img:"Basic/Lighting/basic_lighting2.png",
         flippedImg:"Basic/Lighting/basic_lighting2.png",
