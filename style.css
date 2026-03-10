@@ -256,7 +256,7 @@ body.start-screen {
   display:flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vg;
+  min-height: 100vh;
   padding:20px;
   background: linear-gradient(135deg,#66e35d, #89e7fa,#1441e3);
   font-family: 'Trebuchet MS', sans-serif;
