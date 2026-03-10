@@ -389,13 +389,12 @@ touch-action:none;
 }
 
 .locked {
-  color: yellow;
+  background: #ddd;
 }
 
-.unlocked {
-  background: #4CAF50;
-  color: white;
-  font-weight: bold;
+
+.Direct {
+  color: yellow
 }
 
 #timer {
