@@ -311,7 +311,7 @@ const furnitureData = {
         flippedImg: "Standard/Lighting/Standard_Lighting3.png",
         rearImg: "Standard/Lighting/Standard_Lighting3.png",
         rearImgF: "Standard/Lighting/Standard_Lighting3.png",
-        width:125
+        width:100
       }      
 
     ],
