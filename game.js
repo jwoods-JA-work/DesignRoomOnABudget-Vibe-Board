@@ -665,8 +665,20 @@ finishBtn.addEventListener("click", () => {
     drawer.classList.add("unlocked");
 
     // Show code
-    drawer.innerHTML = "🔓 Drawer Unlocked! You stayed within budget Code: <strong>200</strong>";
+    drawer.innerHTML = "🔓 Drawer Unlocked! You stayed within budget!  Code: <strong>200</strong>";
+confetti({
+  particleCount: 100,
+  angle: 60,
+  spread: 70,
+  origin: { x: 0 }
+});
 
+confetti({
+  particleCount: 100,
+  angle: 120,
+  spread: 70,
+  origin: { x: 1 }
+});
   } else {
 
     drawer.classList.add("locked");
