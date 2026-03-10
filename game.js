@@ -665,7 +665,7 @@ finishBtn.addEventListener("click", () => {
     drawer.classList.add("unlocked");
 
     // Show code
-    drawer.innerHTML = "🔓 Drawer Unlocked! Code: <strong>200</strong>";
+    drawer.innerHTML = "🔓 Drawer Unlocked! You stayed within budget Code: <strong>200</strong>";
 
   } else {
 
