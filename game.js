@@ -22,7 +22,7 @@ finishBtn.disabled = true;
 // =======================
 // TIMER (5 SECONDS)
 // =======================
-let timeLeft = 5;
+let timeLeft = 60;
 const timer = setInterval(() => {
   timeLeft--;
   timerDisplay.innerText = `⏱ Time Left to Be Able to Submit: ${timeLeft}`;
