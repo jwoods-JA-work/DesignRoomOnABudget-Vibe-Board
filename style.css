@@ -431,10 +431,6 @@ touch-action:none;
   font-size: 30px;
 }
 
-#timer {
-  font-size: 16px;
-  color: orange;
-}
 
 .gameInfo {
   display: flex;
