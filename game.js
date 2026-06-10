@@ -494,6 +494,7 @@ function makeDraggable(element) {
   element.style.touchAction = "none";
 
   element.addEventListener("pointerdown", function(e) {
+    console.log("Dragging:", element.id);
     selectedFurniture = element;
     showSelectionOutline(element);
 
@@ -578,6 +579,8 @@ function buyItem(type, item) {
   imgElem.addEventListener('click', () => {
     selectedFurniture = imgElem;
     showSelectionOutline(imgElem);
+    imgElem.style.zIndex = 999;
+
   });
 
   roomCanvas.appendChild(imgElem);
